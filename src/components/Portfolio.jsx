@@ -2,8 +2,6 @@ import React from "react";
 import mouseover from "../assets/portfolio/mouseover.png";
 import pokedex from "../assets/portfolio/pokedex.png";
 import slidervideo from "../assets/portfolio/slidervideo.png";
-import calculatorjs from "../assets/portfolio/calculatorjs.png";
-import calculatorJava from "../assets/portfolio/calculatorJava.png";
 
 const Portfolio = () => {
   const portfolios = [

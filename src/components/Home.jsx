@@ -16,7 +16,7 @@ const Home = () => {
           </h2>
           <p className="text-black py-4 max-w-md">
             I'm a passionate Front-end developer. Excited to
-              advance my journey as a web developer and work on exciting
+              advance my journey as a programmer and work on exciting
               projects. Thank you for visiting my portfolio; hope to collaborate
               in the future.
           </p>
