@@ -2,34 +2,37 @@ import React from "react";
 import mouseover from "../assets/portfolio/mouseover.png";
 import pokedex from "../assets/portfolio/pokedex.png";
 import slidervideo from "../assets/portfolio/slidervideo.png";
-
+import landingPageHappytails from "../assets/portfolio/landingPageHappytails.png";
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: mouseover,
-      text: "MouseOver",
-      githubLink: "https://github.com/Angel09122002/Onmouseover-Nike-page",
-      demoLink: "https://poetic-gaufre-136099.netlify.app"
+      src: landingPageHappytails,
+      text: "LandingPage for Happytails Pets Spa Mobile Dog Groomin",
+      githubLink: "https://github.com/Angel09122002/Happytailspetsspa",
+      demoLink: "https://willowy-phoenix-3480d3.netlify.app",
     },
     {
       id: 2,
       src: pokedex,
       text: "Pokedex",
       githubLink: "https://github.com/Angel09122002/Pokedexjs",
-      demoLink: "https://spectacular-liger-e9470a.netlify.app"
+      demoLink: "https://spectacular-liger-e9470a.netlify.app",
     },
     {
       id: 3,
       src: slidervideo,
       text: "SliderVideo Effect",
       githubLink: "https://github.com/Angel09122002/SliderVideo",
-      demoLink: "https://rainbow-kleicha-34c84f.netlify.app"
+      demoLink: "https://rainbow-kleicha-34c84f.netlify.app",
     },
-    
-     
-    
-   
+    {
+      id: 1,
+      src: mouseover,
+      text: "MouseOver",
+      githubLink: "https://github.com/Angel09122002/Onmouseover-Nike-page",
+      demoLink: "https://poetic-gaufre-136099.netlify.app",
+    },
   ];
 
   return (
@@ -53,10 +56,20 @@ const Portfolio = () => {
                 <p className="text-sm">{text}</p>
               </div>
               <div className="flex items-center justify-center">
-                <a href={demoLink} target="_blank" rel="noopener noreferrer" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a
+                  href={demoLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                >
                   Demo
                 </a>
-                <a href={githubLink} target="_blank" rel="noopener noreferrer" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a
+                  href={githubLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                >
                   Code
                 </a>
               </div>
