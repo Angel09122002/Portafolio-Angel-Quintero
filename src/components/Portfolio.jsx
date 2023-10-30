@@ -1,6 +1,7 @@
 import React from "react";
 import mouseover from "../assets/portfolio/mouseover.png";
 import pokedex from "../assets/portfolio/pokedex.png";
+import littlelemon from "../assets/portfolio/littlelemon.png";
 import slidervideo from "../assets/portfolio/slidervideo.png";
 import landingPageHappytails from "../assets/portfolio/landingPageHappytails.png";
 const Portfolio = () => {
@@ -14,20 +15,28 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      src: littlelemon,
+      text: "Little lemon project",
+      githubLink: "https://github.com/Angel09122002/little-lemon-capstone",
+      demoLink: "https://spiffy-gecko-d72cb0.netlify.app",
+    },
+    {
+      id: 3,
       src: pokedex,
       text: "Pokedex",
       githubLink: "https://github.com/Angel09122002/Pokedexjs",
       demoLink: "https://spectacular-liger-e9470a.netlify.app",
     },
+
     {
-      id: 3,
+      id: 4,
       src: slidervideo,
       text: "SliderVideo Effect",
       githubLink: "https://github.com/Angel09122002/SliderVideo",
       demoLink: "https://rainbow-kleicha-34c84f.netlify.app",
     },
     {
-      id: 1,
+      id: 5,
       src: mouseover,
       text: "MouseOver",
       githubLink: "https://github.com/Angel09122002/Onmouseover-Nike-page",
