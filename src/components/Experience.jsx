@@ -1,11 +1,11 @@
 import React from "react";
-import html from "../assets/html.png";
 import css from "../assets/css.png";
+import github from "../assets/github.png";
+import html from "../assets/html.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import github from "../assets/github.png";
+import sass from "../assets/sass.png";
 import tailwind from "../assets/tailwind.png";
-
 const Experience = () => {
   const techs = [
     {
@@ -40,24 +40,26 @@ const Experience = () => {
     },
     {
       id: 6,
+      src: sass,
+      title: "Sass",
+      style: "shadow-pink-400",
+    },
+    {
+      id: 7,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
-   
   ];
 
   return (
-    <div
-      name="experience"
-      className="bg-whitew-full h-screen"
-    >
+    <div name="experience" className="bg-whitew-full h-screen">
       <div className="max-w-screen-lg mx-auto p-3 flex flex-col justify-center w-full h-full text-black">
         <div>
-          <p className="text-4xl font-bold ">
-            Experience
+          <p className="text-4xl font-bold ">Experience</p>
+          <p className="py-6">
+            These are the tech stacks I've gained hands-on experience{" "}
           </p>
-          <p className="py-6">These are the tech stacks I've gained hands-on experience </p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-9 px-12 sm:px-0">
@@ -65,7 +67,6 @@ const Experience = () => {
             <div
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-3 rounded-lg ${style}`}
-              style={{ borderRadius: '50px' }}
             >
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>

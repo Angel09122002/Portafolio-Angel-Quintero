@@ -1,47 +1,62 @@
 import React from "react";
+import ecommerce from "../assets/portfolio/ecommerProductPage.png";
+import landingPageHappytails from "../assets/portfolio/landingPageHappytails.png";
+import littlelemon from "../assets/portfolio/littlelemon.png";
 import mouseover from "../assets/portfolio/mouseover.png";
 import pokedex from "../assets/portfolio/pokedex.png";
-import littlelemon from "../assets/portfolio/littlelemon.png";
 import slidervideo from "../assets/portfolio/slidervideo.png";
-import landingPageHappytails from "../assets/portfolio/landingPageHappytails.png";
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      title: "LandingPage HappytailsPetsSpa",
       src: landingPageHappytails,
-      text: "LandingPage for Happytails Pets Spa Mobile Dog Groomin",
+      text: "",
       githubLink: "https://github.com/Angel09122002/Happytailspetsspa",
       demoLink: "https://willowy-phoenix-3480d3.netlify.app",
     },
     {
       id: 2,
+      title: "Ecommerce Product Page",
+      src: ecommerce,
+      text: "",
+      githubLink: "https://github.com/Angel09122002/Ecommerce-Project",
+      demoLink: "https://ecommerce-project-angelquintero.netlify.app",
+    },
+    {
+      id: 3,
+      title: "Little lemon project",
       src: littlelemon,
-      text: "Little lemon project",
+      text: "",
       githubLink: "https://github.com/Angel09122002/little-lemon-capstone",
       demoLink: "https://spiffy-gecko-d72cb0.netlify.app",
     },
     {
-      id: 3,
+      id: 4,
+      title: "Pokedex",
       src: pokedex,
-      text: "Pokedex",
+      text: "",
       githubLink: "https://github.com/Angel09122002/Pokedexjs",
       demoLink: "https://spectacular-liger-e9470a.netlify.app",
     },
 
     {
-      id: 4,
+      id: 5,
+      title: "SliderVideo Effect",
       src: slidervideo,
-      text: "SliderVideo Effect",
+      text: "",
       githubLink: "https://github.com/Angel09122002/SliderVideo",
       demoLink: "https://rainbow-kleicha-34c84f.netlify.app",
     },
     {
       id: 5,
+      title: "MouseOver",
       src: mouseover,
-      text: "MouseOver",
+      text: "",
       githubLink: "https://github.com/Angel09122002/Onmouseover-Nike-page",
       demoLink: "https://poetic-gaufre-136099.netlify.app",
     },
+    
   ];
 
   return (
@@ -53,7 +68,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, text, githubLink, demoLink }) => (
+          {portfolios.map(({ id, title, src, text, githubLink, demoLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -61,7 +76,8 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="p-4">
-                <p className="text-lg font-bold pb-2">Project {id}</p>
+                <h1 className="font-bold">{title}</h1>
+                <p className="text-lg font-bold pb-2"></p>
                 <p className="text-sm">{text}</p>
               </div>
               <div className="flex items-center justify-center">
