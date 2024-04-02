@@ -50,7 +50,7 @@ const Portfolio = () => {
       demoLink: "https://weather-app-react-js-angel-quintero.netlify.app",
     },
     {
-      id: 5,
+      id: 6,
       title: "MouseOver",
       src: mouseover,
       text: "",
@@ -76,7 +76,7 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="p-4">
-                <h1 className="font-bold">{title}</h1>
+                <h1 className="font-bold text-gray-500">{title}</h1>
                 <p className="text-lg font-bold pb-2"></p>
                 <p className="text-sm">{text}</p>
               </div>
