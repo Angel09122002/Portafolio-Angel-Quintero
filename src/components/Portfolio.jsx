@@ -4,7 +4,7 @@ import landingPageHappytails from "../assets/portfolio/landingPageHappytails.png
 import littlelemon from "../assets/portfolio/littlelemon.png";
 import mouseover from "../assets/portfolio/mouseover.png";
 import pokedex from "../assets/portfolio/pokedex.png";
-import slidervideo from "../assets/portfolio/slidervideo.png";
+import weatherapp from "../assets/portfolio/weatherapp.png";
 const Portfolio = () => {
   const portfolios = [
     {
@@ -33,7 +33,7 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      title: "Pokedex",
+      title: "Pokedex-API",
       src: pokedex,
       text: "",
       githubLink: "https://github.com/Angel09122002/Pokedexjs",
@@ -42,11 +42,12 @@ const Portfolio = () => {
 
     {
       id: 5,
-      title: "SliderVideo Effect",
-      src: slidervideo,
+      title: "Weather App-API",
+      src: weatherapp,
       text: "",
-      githubLink: "https://github.com/Angel09122002/SliderVideo",
-      demoLink: "https://rainbow-kleicha-34c84f.netlify.app",
+      githubLink:
+        "https://github.com/Angel09122002/WeatherApp-ReactJs?tab=readme-ov-file#technologies-used-1",
+      demoLink: "https://weather-app-react-js-angel-quintero.netlify.app",
     },
     {
       id: 5,
@@ -56,7 +57,6 @@ const Portfolio = () => {
       githubLink: "https://github.com/Angel09122002/Onmouseover-Nike-page",
       demoLink: "https://poetic-gaufre-136099.netlify.app",
     },
-    
   ];
 
   return (
