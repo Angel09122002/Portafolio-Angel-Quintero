@@ -2,13 +2,16 @@ import React from "react";
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-white text-black">
+    <div
+      name="about"
+      className="h-screen w-full bg-gradient-to-r from-violet-300 from-5% via-violet-300 to-white"
+    >
       <div className="max-w-screen-lg p-2 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-0">
           <p className="text-4xl font-bold inline ">About Me</p>
         </div>
 
-        <p className="text-xl mt-12">
+        <p className=" text-xl mt-12">
           Hello! My name is Angel Quintero, and I am a Computer Science student.
           I have always been passionate about technology, and that's what led me
           to start programming. I love the thrill of solving problems and seeing
