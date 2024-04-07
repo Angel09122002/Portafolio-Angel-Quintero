@@ -79,7 +79,7 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="p-4">
-                <h1 className="font-bold text-gray-500">{title}</h1>
+                <h1 className="font-bold text-black-500">{title}</h1>
                 <p className="text-lg font-bold pb-2"></p>
                 <p className="text-sm">{text}</p>
               </div>
